@@ -1,42 +1,159 @@
-<h1>堀川 雄士 </h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>堀川 雄士 | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<h2>プロフィール</h2>
-<p>営業経験を活かし、Webエンジニアを目指しています。</p>
+  <header class="header">
+    <div class="container header-inner">
+      <h1 class="logo">Yuji Horikawa</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#works">Works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<h2>スキル</h2>
-<ul>
-  <li>HTML/CSS</li>
-  <li>JavaScript</li>
-  <li>PHP</li>
-  <li>WordPress</li>
-  <li>Git/GitHub</li>
-</ul>
+  <section class="hero">
+    <div class="container">
+      <p class="hero-label">Web Engineer Portfolio</p>
+      <h2>営業経験を活かし、<br>課題解決できるWebエンジニアを目指しています。</h2>
+      <p class="hero-text">
+        20年以上の営業・事業運営経験で培った課題解決力と調整力を活かし、
+        HTML/CSS、JavaScript、PHP、WordPressを中心に学習しています。
+      </p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#works">制作実績を見る</a>
+        <a class="btn secondary" href="https://github.com/yujihorikawa" target="_blank">GitHubを見る</a>
+      </div>
+    </div>
+  </section>
 
-<h2>制作実績</h2>
-<ul>
-  <li>PHP課題</li>
-  <li>JavaScript課題</li>
-  <li>WordPress自作テーマ</li>
-</ul>
+  <main>
 
-<h2>GitHub</h2>
-<p>
-  <a href="https://github.com/yujihorikawa">
-    GitHubプロフィール
-  </a>
-</p>
-<h3>顧客管理システム</h3>
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-card">
+          <h3>堀川 雄士</h3>
+          <p>
+            営業、事業運営、市場流通業務など幅広い業務に従事してきました。
+            現在はWebエンジニアへの転職を目指し、PHP・MySQLを用いた顧客管理システムや、
+            GitHub Pagesを利用したポートフォリオサイト制作に取り組んでいます。
+          </p>
+        </div>
+      </div>
+    </section>
 
-<p>
-PHP・MySQLを使用した顧客管理システムです。
-顧客登録・一覧表示・編集・削除・検索機能を実装しました。
-</p>
+    <section id="skills" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>jQuery</span>
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>WordPress</span>
+          <span>Git / GitHub</span>
+          <span>Python</span>
+        </div>
+      </div>
+    </section>
 
-<p>
-使用技術：
-PHP / MySQL / PDO / HTML / CSS
-</p>
+    <section id="works" class="section">
+      <div class="container">
+        <h2 class="section-title">Works</h2>
 
-<a href="https://github.com/yujihorikawa/customer-management-app" target="_blank">
-GitHubを見る
-</a>
+        <div class="works-grid">
+
+          <article class="work-card">
+            <p class="work-category">PHP / MySQL</p>
+            <h3>顧客管理システム</h3>
+            <p>
+              PHP・MySQLを使用した顧客管理システムです。
+              顧客登録、一覧表示、編集、削除、検索機能を実装しました。
+            </p>
+            <ul>
+              <li>CRUD機能</li>
+              <li>検索機能</li>
+              <li>PDOによるDB接続</li>
+            </ul>
+            <a class="text-link" href="https://github.com/yujihorikawa/customer-management-app" target="_blank">
+              GitHubを見る →
+            </a>
+          </article>
+
+          <article class="work-card">
+            <p class="work-category">WordPress / PHP</p>
+            <h3>WordPress自作テーマ</h3>
+            <p>
+              HTMLからWordPressテーマ化を行い、テンプレート構造やループ処理、
+              管理画面との連携を学習しました。
+            </p>
+            <ul>
+              <li>テーマファイル作成</li>
+              <li>テンプレート分割</li>
+              <li>PHP基礎</li>
+            </ul>
+          </article>
+
+          <article class="work-card">
+            <p class="work-category">HTML / CSS / JavaScript</p>
+            <h3>ポートフォリオサイト</h3>
+            <p>
+              転職活動用に制作したポートフォリオサイトです。
+              プロフィール、スキル、制作実績を掲載しています。
+            </p>
+            <ul>
+              <li>GitHub Pages公開</li>
+              <li>レスポンシブ対応</li>
+              <li>情報設計</li>
+            </ul>
+          </article>
+
+          <article class="work-card">
+            <p class="work-category">JavaScript</p>
+            <h3>JavaScriptアプリケーション</h3>
+            <p>
+              タイピングゲーム、じゃんけんゲームを制作。
+              DOM操作、イベント処理、条件分岐などを学習しました。
+            </p>
+            <ul>
+              <li>DOM操作</li>
+              <li>イベント処理</li>
+              <li>条件分岐</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-dark">
+      <div class="container">
+        <h2 class="section-title light">Contact</h2>
+        <p class="contact-text">
+          GitHubにて制作物を公開しています。
+        </p>
+        <a class="btn primary" href="https://github.com/yujihorikawa" target="_blank">
+          GitHubプロフィールを見る
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Yuji Horikawa</p>
+  </footer>
+
+</body>
+</html>
