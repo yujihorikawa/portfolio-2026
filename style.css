@@ -348,9 +348,11 @@ img {
 }
 
 .work-button {
-  display: inline-block;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  align-self: flex-start;
   margin-top: auto;
-  align-self: flex-start;  
   padding: 10px 16px;
   background: #111827;
   color: #ffffff;
