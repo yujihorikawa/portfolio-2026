@@ -349,7 +349,6 @@ img {
 
 .work-button {
   display: inline-block;
-  width: fit-content;
   margin-top: auto;
   align-self: flex-start;  
   padding: 10px 16px;
