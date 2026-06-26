@@ -349,6 +349,7 @@ img {
 
 .work-button {
   display: inline-block;
+  width: fit-content;
   margin-top: auto;
   padding: 10px 16px;
   background: #111827;
